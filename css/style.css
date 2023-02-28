@@ -1,0 +1,246 @@
+.footer__info, .footer__contact--callback, .footer__contact, .boxes__wrapper .box--sales, .menu, .callback, .logo, .info-line, .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__content--btn, .card__btn, .main-block__btn, .callback__btn {
+  border: 2px solid #66C05D;
+  border-radius: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 170px;
+  height: 35px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navbar {
+  background-color: #EFEFEF;
+}
+.navbar a {
+  margin: 16px 15px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.info-line {
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.logo__img {
+  width: 80px;
+  height: 80px;
+}
+.logo__text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #66C05D;
+  margin-left: 20px;
+}
+
+.callback__phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.callback__btn {
+  margin-left: 40px;
+}
+
+hr {
+  border: 1px solid #EFEFEF;
+}
+
+.menu a {
+  font-size: 16px;
+  line-height: 19px;
+  margin: 30px 20px;
+  text-decoration: none;
+}
+
+.main-block {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/Rectangle 2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 604px;
+  width: 100%;
+}
+.main-block__content {
+  margin: auto;
+  padding-right: 45%;
+}
+.main-block__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+.main-block__text {
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 50px 0;
+  max-width: 308px;
+}
+.main-block__btn {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.container {
+  padding: 80px;
+  margin: 0;
+  background-color: #EFEFEF;
+}
+.container .wrapper .header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: auto;
+}
+.container .wrapper .header__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 38px;
+}
+.container .wrapper .header__img {
+  margin: 0 75px 16px 0;
+}
+.container .wrapper .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+  padding: 25px;
+  width: 255px;
+  height: 366px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+.card:last-child {
+  margin: 0;
+}
+.card__img {
+  width: 125px;
+  height: 166px;
+}
+.card__text {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 20px 0;
+  text-align: center;
+}
+.card__price {
+  font-weight: 500;
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding-bottom: 20px;
+}
+.card__btn {
+  width: 130px;
+  background-color: #66C05D;
+  color: #FFFFFF;
+}
+
+.boxes__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 50px;
+}
+.boxes__wrapper .box {
+  width: 100%;
+  max-width: 540px;
+  height: 212px;
+  background-color: #66C05D;
+  padding: 35px 40px;
+  box-sizing: border-box;
+}
+.boxes__wrapper .box__img {
+  max-width: 140px;
+}
+.boxes__wrapper .box--sales {
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.box__content--title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.box__content--text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 25px 0;
+  color: #FFFFFF;
+}
+.box__content--email {
+  width: 175px;
+  height: 35px;
+  left: 445px;
+  top: 1605px;
+  border-radius: 30px;
+  padding: 0 25px;
+}
+.box__content--email::placeholder {
+  color: #C4C4C4;
+}
+.box__content--btn {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.footer__contact {
+  justify-content: space-evenly;
+  max-height: 120px;
+  padding: 36px 0px;
+}
+.footer__info {
+  justify-content: space-around;
+  max-height: 64px;
+  background-color: #EFEFEF;
+  padding: 25px 0;
+}
+.footer__info--text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+.footer__info--link {
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  text-decoration: none;
+}
+
+.icon {
+  height: 45px;
+  margin-right: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
